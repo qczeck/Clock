@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		543EF7E72765D73D002442FF /* ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543EF7E62765D73D002442FF /* ClockApp.swift */; };
+		543EF7E92765D73D002442FF /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543EF7E82765D73D002442FF /* AlarmView.swift */; };
+		543EF7EB2765D73D002442FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543EF7EA2765D73D002442FF /* Assets.xcassets */; };
+		543EF7EE2765D73D002442FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543EF7ED2765D73D002442FF /* Preview Assets.xcassets */; };
+		543EF7F52765DAF7002442FF /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543EF7F42765DAF7002442FF /* Alarm.swift */; };
+		543EF7F72765DD7E002442FF /* AlarmAddition+EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543EF7F62765DD7E002442FF /* AlarmAddition+EditView.swift */; };
+		543EF7F92765DE4D002442FF /* AlarmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543EF7F82765DE4D002442FF /* AlarmStore.swift */; };
+		543EF7FB2765E040002442FF /* AlarmListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543EF7FA2765E040002442FF /* AlarmListCell.swift */; };
+		544710A0276D1E3000EA3EFD /* MultiPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5447109F276D1E3000EA3EFD /* MultiPicker.swift */; };
+		544710A2276D234A00EA3EFD /* WhenTimerEndsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544710A1276D234A00EA3EFD /* WhenTimerEndsSheet.swift */; };
+		544710A4276D291500EA3EFD /* CountdownCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544710A3276D291500EA3EFD /* CountdownCircle.swift */; };
+		54AAA3D2276D009C0071DAE6 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AAA3D1276D009C0071DAE6 /* TimerView.swift */; };
+		54AAA3D4276D00D50071DAE6 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AAA3D3276D00D50071DAE6 /* TimerManager.swift */; };
+		54CA2B8A2771B916003A315C /* CityListSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CA2B892771B916003A315C /* CityListSheet.swift */; };
+		54D096012770A13800DC9A04 /* WorldClockStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D096002770A13800DC9A04 /* WorldClockStore.swift */; };
+		54D096032770A13E00DC9A04 /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D096022770A13E00DC9A04 /* WorldClockView.swift */; };
+		54D096052770A23A00DC9A04 /* WorldClockCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D096042770A23A00DC9A04 /* WorldClockCellView.swift */; };
+		54D9F1182768802D00673F49 /* StopwatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D9F1172768802D00673F49 /* StopwatchManager.swift */; };
+		54D9F11A2768807F00673F49 /* Lap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D9F1192768807F00673F49 /* Lap.swift */; };
+		54E11CE2276653A30076CB5F /* UtilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E11CE1276653A30076CB5F /* UtilityExtensions.swift */; };
+		54F76363276CC40500C22CD6 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F76362276CC40500C22CD6 /* CircularButton.swift */; };
+		54FC13B12767C96F00FAA765 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FC13B02767C96F00FAA765 /* StopwatchView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		543EF7E32765D73C002442FF /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		543EF7E62765D73D002442FF /* ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockApp.swift; sourceTree = "<group>"; };
+		543EF7E82765D73D002442FF /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		543EF7EA2765D73D002442FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		543EF7ED2765D73D002442FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		543EF7F42765DAF7002442FF /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		543EF7F62765DD7E002442FF /* AlarmAddition+EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlarmAddition+EditView.swift"; sourceTree = "<group>"; };
+		543EF7F82765DE4D002442FF /* AlarmStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmStore.swift; sourceTree = "<group>"; };
+		543EF7FA2765E040002442FF /* AlarmListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListCell.swift; sourceTree = "<group>"; };
+		5447109F276D1E3000EA3EFD /* MultiPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPicker.swift; sourceTree = "<group>"; };
+		544710A1276D234A00EA3EFD /* WhenTimerEndsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhenTimerEndsSheet.swift; sourceTree = "<group>"; };
+		544710A3276D291500EA3EFD /* CountdownCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownCircle.swift; sourceTree = "<group>"; };
+		54AAA3D1276D009C0071DAE6 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		54AAA3D3276D00D50071DAE6 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		54CA2B892771B916003A315C /* CityListSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListSheet.swift; sourceTree = "<group>"; };
+		54D096002770A13800DC9A04 /* WorldClockStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockStore.swift; sourceTree = "<group>"; };
+		54D096022770A13E00DC9A04 /* WorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
+		54D096042770A23A00DC9A04 /* WorldClockCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockCellView.swift; sourceTree = "<group>"; };
+		54D9F1172768802D00673F49 /* StopwatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchManager.swift; sourceTree = "<group>"; };
+		54D9F1192768807F00673F49 /* Lap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lap.swift; sourceTree = "<group>"; };
+		54E11CE1276653A30076CB5F /* UtilityExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityExtensions.swift; sourceTree = "<group>"; };
+		54F76362276CC40500C22CD6 /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
+		54FC13B02767C96F00FAA765 /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		543EF7E02765D73C002442FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		543EF7DA2765D73C002442FF = {
+			isa = PBXGroup;
+			children = (
+				543EF7E52765D73C002442FF /* Clock */,
+				543EF7E42765D73C002442FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		543EF7E42765D73C002442FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				543EF7E32765D73C002442FF /* Clock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		543EF7E52765D73C002442FF /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				543EF7E62765D73D002442FF /* ClockApp.swift */,
+				54D095FD2770A0F600DC9A04 /* World Clock */,
+				54FC13B22767CAC100FAA765 /* Alarm */,
+				54F76365276CC55F00C22CD6 /* Stopwatch */,
+				54AAA3D0276D00880071DAE6 /* Timer */,
+				54F76362276CC40500C22CD6 /* CircularButton.swift */,
+				54E11CE1276653A30076CB5F /* UtilityExtensions.swift */,
+				543EF7EA2765D73D002442FF /* Assets.xcassets */,
+				543EF7EC2765D73D002442FF /* Preview Content */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		543EF7EC2765D73D002442FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				543EF7ED2765D73D002442FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54AAA3D0276D00880071DAE6 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				54AAA3D3276D00D50071DAE6 /* TimerManager.swift */,
+				5447109F276D1E3000EA3EFD /* MultiPicker.swift */,
+				54AAA3D1276D009C0071DAE6 /* TimerView.swift */,
+				544710A3276D291500EA3EFD /* CountdownCircle.swift */,
+				544710A1276D234A00EA3EFD /* WhenTimerEndsSheet.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		54D095FD2770A0F600DC9A04 /* World Clock */ = {
+			isa = PBXGroup;
+			children = (
+				54D096002770A13800DC9A04 /* WorldClockStore.swift */,
+				54D096022770A13E00DC9A04 /* WorldClockView.swift */,
+				54CA2B892771B916003A315C /* CityListSheet.swift */,
+				54D096042770A23A00DC9A04 /* WorldClockCellView.swift */,
+			);
+			path = "World Clock";
+			sourceTree = "<group>";
+		};
+		54F76365276CC55F00C22CD6 /* Stopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				54D9F1192768807F00673F49 /* Lap.swift */,
+				54D9F1172768802D00673F49 /* StopwatchManager.swift */,
+				54FC13B02767C96F00FAA765 /* StopwatchView.swift */,
+			);
+			path = Stopwatch;
+			sourceTree = "<group>";
+		};
+		54FC13B22767CAC100FAA765 /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				543EF7F42765DAF7002442FF /* Alarm.swift */,
+				543EF7F82765DE4D002442FF /* AlarmStore.swift */,
+				543EF7E82765D73D002442FF /* AlarmView.swift */,
+				543EF7FA2765E040002442FF /* AlarmListCell.swift */,
+				543EF7F62765DD7E002442FF /* AlarmAddition+EditView.swift */,
+			);
+			path = Alarm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		543EF7E22765D73C002442FF /* Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543EF7F12765D73D002442FF /* Build configuration list for PBXNativeTarget "Clock" */;
+			buildPhases = (
+				543EF7DF2765D73C002442FF /* Sources */,
+				543EF7E02765D73C002442FF /* Frameworks */,
+				543EF7E12765D73C002442FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clock;
+			productName = Clock;
+			productReference = 543EF7E32765D73C002442FF /* Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		543EF7DB2765D73C002442FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					543EF7E22765D73C002442FF = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 543EF7DE2765D73C002442FF /* Build configuration list for PBXProject "Clock" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 543EF7DA2765D73C002442FF;
+			productRefGroup = 543EF7E42765D73C002442FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				543EF7E22765D73C002442FF /* Clock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		543EF7E12765D73C002442FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543EF7EE2765D73D002442FF /* Preview Assets.xcassets in Resources */,
+				543EF7EB2765D73D002442FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		543EF7DF2765D73C002442FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543EF7E92765D73D002442FF /* AlarmView.swift in Sources */,
+				54D096012770A13800DC9A04 /* WorldClockStore.swift in Sources */,
+				543EF7E72765D73D002442FF /* ClockApp.swift in Sources */,
+				543EF7F92765DE4D002442FF /* AlarmStore.swift in Sources */,
+				544710A4276D291500EA3EFD /* CountdownCircle.swift in Sources */,
+				544710A2276D234A00EA3EFD /* WhenTimerEndsSheet.swift in Sources */,
+				54D9F11A2768807F00673F49 /* Lap.swift in Sources */,
+				54E11CE2276653A30076CB5F /* UtilityExtensions.swift in Sources */,
+				544710A0276D1E3000EA3EFD /* MultiPicker.swift in Sources */,
+				54AAA3D4276D00D50071DAE6 /* TimerManager.swift in Sources */,
+				543EF7F72765DD7E002442FF /* AlarmAddition+EditView.swift in Sources */,
+				54CA2B8A2771B916003A315C /* CityListSheet.swift in Sources */,
+				54D096032770A13E00DC9A04 /* WorldClockView.swift in Sources */,
+				54AAA3D2276D009C0071DAE6 /* TimerView.swift in Sources */,
+				543EF7F52765DAF7002442FF /* Alarm.swift in Sources */,
+				54FC13B12767C96F00FAA765 /* StopwatchView.swift in Sources */,
+				54F76363276CC40500C22CD6 /* CircularButton.swift in Sources */,
+				543EF7FB2765E040002442FF /* AlarmListCell.swift in Sources */,
+				54D096052770A23A00DC9A04 /* WorldClockCellView.swift in Sources */,
+				54D9F1182768802D00673F49 /* StopwatchManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		543EF7EF2765D73D002442FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		543EF7F02765D73D002442FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		543EF7F22765D73D002442FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clock/Preview Content\"";
+				DEVELOPMENT_TEAM = 76T23H43M5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.maciekkuczek.Clock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		543EF7F32765D73D002442FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clock/Preview Content\"";
+				DEVELOPMENT_TEAM = 76T23H43M5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.maciekkuczek.Clock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		543EF7DE2765D73C002442FF /* Build configuration list for PBXProject "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543EF7EF2765D73D002442FF /* Debug */,
+				543EF7F02765D73D002442FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543EF7F12765D73D002442FF /* Build configuration list for PBXNativeTarget "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543EF7F22765D73D002442FF /* Debug */,
+				543EF7F32765D73D002442FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 543EF7DB2765D73C002442FF /* Project object */;
+}
